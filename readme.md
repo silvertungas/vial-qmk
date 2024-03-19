@@ -10,7 +10,12 @@ This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github
 
 ## My keyboards
 
+
 Can be found in ---/keyboards/silvertungas---
+
+Specify the modified keyboard path and vial keymapping such as:
+
+--- qmk compile -kb silvertungas/lily58 -km vial ---
 
 * Lily58
 
