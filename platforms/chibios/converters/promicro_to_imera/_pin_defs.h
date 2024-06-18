@@ -33,4 +33,8 @@
 
 // LEDs
 #define D5 24U // Power LED, default-on
+<<<<<<< HEAD
 #define B0 18U // Unconnected
+=======
+#define B0 18U // Unconnected
+>>>>>>> vial
