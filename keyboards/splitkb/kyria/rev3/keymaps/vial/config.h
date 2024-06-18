@@ -1,24 +1,14 @@
-/* Copyright 2022 Thomas Baart <thomas@splitkb.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/* Copyright 2023 splitkb.com <support@splitkb.com> */
 
 #pragma once
 
-#define VIAL_KEYBOARD_UID {0x04, 0x7F, 0x41, 0xF3, 0x39, 0xD8, 0x1F, 0xEA}
+#define VIAL_KEYBOARD_UID {0x0F, 0xF9, 0x13, 0x6C, 0x1D, 0xBF, 0x7D, 0xA6}
 
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 4 }
-#define VIAL_UNLOCK_COMBO_COLS { 6, 6 }
-#define DYNAMIC_KEYMAP_LAYER_COUNT 5
-#define VIAL_TAP_DANCE_ENTRIES 20
+#define VIAL_UNLOCK_COMBO_COLS { 1, 1 }
+
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_MATRIX_KEYPRESSES
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
